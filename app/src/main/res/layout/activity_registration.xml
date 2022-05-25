@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Registration">
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+    <ImageView
+        android:id="@+id/photoView"
+        android:layout_width="match_parent"
+        android:layout_height="180dp">
+
+    </ImageView>
+    <EditText
+        android:textSize="20dp"
+        android:id="@+id/Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Login">
+
+    </EditText>
+    <EditText
+        android:textSize="20dp"
+
+        android:id="@+id/Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password">
+
+    </EditText>
+    <EditText
+        android:textSize="20dp"
+
+        android:id="@+id/Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name">
+
+    </EditText>
+    <EditText
+        android:textSize="20dp"
+
+        android:id="@+id/Sername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sername">
+
+    </EditText>
+    <EditText
+        android:textSize="20dp"
+
+        android:id="@+id/Age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Age">
+
+    </EditText>
+
+    <Button
+        android:textSize="15dp"
+
+        android:id="@+id/Photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="lol"
+        android:text="Photo">
+
+    </Button>
+    <Button
+        android:textSize="15dp"
+        android:id="@+id/RegistrationInR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registaration">
+
+    </Button>
+    </LinearLayout>
+
+</LinearLayout>
